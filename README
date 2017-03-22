@@ -1,0 +1,22 @@
+# WSU-CRYPT
+Brayden Roth-White
+Email: brayden.roth-white@wsu.edu
+
+Files:
+      main.py         Executes encrypt on 'plaintext.txt' then decrypt on 
+      		          'ciphertext.txt'
+      Encrypt.py      Performs block encryption on plaintext
+      Subroutines.py  Subroutines used by Encrypt and Decrypt
+      Decrypt.py      Performs block decryption on cipher-text
+      README          README with description and build information
+
+Description:
+	    WSU-CRYPT is a block cipher that uses a 64-bit block size and a 
+64-bit key size.
+
+The program currently runs from main taking in text from 'plaintext.txt' and
+either reading a key from key.txt or generating its own if user specifies. 
+Then, main.py runs Encrypt() on the plaintext, storing the hex cipher-text in
+'ciphertext.txt' and printing out to the user (for grader readability).  Then
+decrypt runs on the cipher-text and prints out the plaintext created from the
+hex string in 'ciphertext.txt'.
